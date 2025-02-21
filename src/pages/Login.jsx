@@ -17,7 +17,7 @@ function Login() {
     setIsLoading(true);
     
     try {
-      const res = await axios.post("https://quirkyroomie-backend-tu8a.onrender.com/api/auth/login", { 
+      const res = await axios.post("https://quirkyroomie-backend-1.onrender.com/api/auth/login", { 
         email, 
         password 
       });

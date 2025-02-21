@@ -14,7 +14,7 @@ function Register() {
   const handleRegister = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("https://quirkyroomie-backend-tu8a.onrender.com/api/auth/register", {
+      await axios.post("https://quirkyroomie-backend-1.onrender.com/api/auth/register", {
         name,
         email,
         password,
