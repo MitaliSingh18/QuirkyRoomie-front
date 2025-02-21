@@ -12,7 +12,7 @@ const ComplaintList = () => {
 
   const fetchComplaints = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/complaints", {
+      const res = await axios.get("https://quirkyroomie-backend-tu8a.onrender.com/api/complaints", {
         headers: { Authorization: localStorage.getItem("token") }
       });
       setComplaints(res.data);
